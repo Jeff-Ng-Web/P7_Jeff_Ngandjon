@@ -1,0 +1,126 @@
+//___FONTS____//
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+//Variables_________________________
+:root {
+    --h1: 24px;
+    --h1_article: 18px;
+    --h2: 18px;
+    --p1: 12px;
+    --p1_article_location: 14px;
+    --p2_tags: 10px;
+    --p2_profile: 12px;
+    --dropdownArticle_button: 13px;
+    --dropdownArticle_content: 12px;
+    --h1_error: 96px;
+    --p1_error: 18px;
+    --p2_error: 14px;
+}
+
+nav li {
+    font-size: var(--p1);
+    font-weight: 500;
+    color: $primary_color;
+}
+
+h2 {
+    font-size: var(--h2);
+    font-weight: 500;
+    color: white;
+}
+
+//Home_________________________
+.banner h1 {
+    font-size: var(--h1);
+    font-weight: 400;
+    color: white;
+}
+
+//Article_________________________
+.article {
+    h1 {
+        font-size: var(--h1_article);
+        line-height: 25.6px;
+        color: $primary_color;
+    }
+    &__location {
+        font-size: var(--p1_article_location);
+        color: $primary_color;
+    }
+
+    &__info2 {
+        figcaption {
+            font-size: var(--p2_profile);
+            color: $primary_color;
+            line-height: 17px;
+            font-weight: 500;
+        }
+    }
+    &__details {
+        margin-bottom: 44px;
+    }
+}
+
+.dropdown__equipments {
+    line-height: 17px;
+    .dropdown__content {
+        font-size: var(--dropdownArticle_content);
+    }
+}
+
+.dropdownArticle__button {
+    font-size: var(--dropdownArticle_button);
+}
+
+.dropdownArticle__p {
+    font-size: var(--dropdownArticle_content);
+}
+
+//Tags_________________________
+.tags {
+    &__content {
+        color: white;
+        font-size: var(--p2_tags);
+    }
+}
+
+//Dropdown_________________________
+.dropdown {
+    color: $primary_color;
+    font-size: var(--p1);
+    button {
+        color: white;
+    }
+}
+
+.dropdownAbout__button {
+    font-size: 13px;
+}
+
+//Error_________________________
+.error {
+    color: $primary_color;
+    h1 {
+        font-size: var(--h1_error);
+        font-weight: bold;
+    }
+    p {
+        font-size: var(--p1_error);
+        line-height: 26px;
+    }
+    .backHome {
+        font-size: var(--p2_error);
+        text-decoration: underline;
+    }
+    .backHome:visited {
+        color: $primary_color;
+    }
+}
+
+//Footer_________________________
+footer p {
+    font-size: var(--p1);
+    color: white;
+}

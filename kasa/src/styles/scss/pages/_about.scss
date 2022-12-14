@@ -1,0 +1,55 @@
+//___ABOUT___//
+
+.bannerAbout {
+    width: 100%;
+    height: 223px;
+    padding-bottom: 19px;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+}
+
+.dropdownAbout {
+    margin-bottom: 220px;
+}
+
+.dropdownAbout__button {
+    height: 30px;
+}
+
+.dropdownAbout__p {
+    padding: 20px 20px 53px 20px;
+}
+
+//___ABOUT RESPONSIVE___//
+
+@media screen and (min-width: 768px) {
+    .bannerAbout {
+        padding-bottom: 31px;
+    }
+
+    .dropdownAbout {
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 95px;
+    }
+
+    .dropdownAbout__button {
+        height: 47px;
+    }
+
+    .dropdownAbout__p {
+        padding: 35px 20px 15px 20px;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .dropdownAbout {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+}

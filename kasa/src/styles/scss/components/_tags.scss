@@ -1,0 +1,38 @@
+//___TAGS____//
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 26px;
+    &__content {
+        height: 18px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: $primary_color;
+        margin-top: 15px;
+        margin-right: 10px;
+        span {
+            margin-top: 5px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+    }
+}
+
+//___TAGS RESPONSIVE____//
+
+@media screen and (min-width: 768px) {
+    .tags {
+        &__content {
+            height: 25px;
+            border-radius: 10px;
+            margin-top: 25px;
+            span {
+                margin-right: 40px;
+                margin-left: 40px;
+            }
+        }
+    }
+}

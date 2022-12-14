@@ -1,0 +1,21 @@
+//___STARS____//
+
+.content__info2__stars {
+    display: flex;
+    img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+//___STARS RESPONSIVE____//
+
+@media screen and (min-width: 768px) {
+    .content__info2__stars {
+        margin-bottom: 10px;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

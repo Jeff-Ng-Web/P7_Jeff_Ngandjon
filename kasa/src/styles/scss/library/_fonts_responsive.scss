@@ -1,0 +1,35 @@
+//___FONTS  RESPONSIVE____//
+
+@media screen and (min-width: 768px) {
+    //Variables_________________________
+    :root {
+        --h1: 48px;
+        --h1_article: 36px;
+        --h2: 19px;
+        --p1: 24px;
+        --p1_article_location: 18px;
+        --p2_tags: 14px;
+        --p2_profile: 18px;
+        --dropdownArticle_button: 18px;
+        --dropdownArticle_content: 18px;
+        --h1_error: 288px;
+        --p1_error: 36px;
+        --p2_error: 18px;
+    }
+
+    //Dropdown_________________________
+    .dropdown {
+        p {
+            line-height: 34px;
+        }
+    }
+
+    .dropdownAbout__button {
+        font-size: 24px;
+    }
+
+    //Error_________________________
+    .error p {
+        line-height: 51px;
+    }
+}

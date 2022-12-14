@@ -1,0 +1,92 @@
+//___ARTICLE____//
+
+.article {
+    h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    &__info2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 17px;
+        figure {
+            display: flex;
+            figcaption {
+                margin-right: 11px;
+                p {
+                    text-align: end;
+                }
+            }
+            img {
+                width: 32px;
+                height: 32px;
+                border-radius: 30px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.dropdownArticle__p {
+    padding: 20px 12px 12px 12px;
+}
+
+.dropdown__equipments {
+    background-color: $secondary-color;
+    border-radius: 5px;
+    padding: 20px 12px 12px 12px;
+}
+
+//___ARTICLE RESPONSIVE____//
+
+@media screen and (min-width: 768px) {
+    .article {
+        &__informations {
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
+        }
+        h1 {
+            margin-top: 40px;
+        }
+        &__info2 {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 24px;
+            figure {
+                display: flex;
+                align-items: center;
+                p {
+                    margin-top: 5px;
+                    margin-bottom: 9px;
+                }
+                img {
+                    width: 64px;
+                    height: 64px;
+                }
+            }
+        }
+        &__details {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            text-align: justify;
+            &__space {
+                width: 15%;
+            }
+        }
+    }
+    .dropdownArticle__button {
+        height: 52px;
+    }
+    .dropdownArticle__p,
+    .dropdown__equipments {
+        height: 249px;
+        border-radius: 0 0 10px 10px;
+        padding: 36px 20px 36px 20px;
+        li {
+            margin-bottom: 12px;
+        }
+    }
+}
